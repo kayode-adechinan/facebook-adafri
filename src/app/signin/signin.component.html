@@ -142,10 +142,10 @@
               <i class="fa fa-facebook-f mr-2"></i>
               <span class="font-weight-bold">Continue with Facebook</span>
             </button>
-            <a href="#" class="btn btn-primary btn-block py-2 btn-twitter">
-              <i class="fa fa-twitter mr-2"></i>
-              <span class="font-weight-bold">Continue with Twitter</span>
-            </a>
+            <button  (click)="authService.GoogleAuth()" class="btn btn-primary btn-block py-2 btn-twitter">
+              <i class="fa fa-google mr-2"></i>
+              <span class="font-weight-bold">Continue with Google</span>
+            </button>
           </div>
 
           <!-- Already Registered -->
